@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    transition: .5s;
+    font-family: 'Nunito';
+}
+
+.wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* header */
+.header {
+    padding: 20px 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.menu-link:hover::after {
+    width: 100%;
+}
+
+.menu-link::after {
+    content: '';
+    width: 0;
+    border-bottom: 2px solid #000;
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(-50%);
+    left: 50%;
+    transition: .5s;
+}
+
+.arrowdown {
+    margin-left: 10px;
+}
+
+.menu-links {
+    display: flex;
+    gap: 32px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-btn {
+    background-color: #837EDE;
+    color: white;
+    padding: 6px 35px;
+    padding-left: 12px;
+    border-radius: 50px;
+}
+
+.header-btn:hover {
+    background-color: #746ee1;
+}
+
+.ArrowinCircle {
+    padding-left: 10px;
+    width: 36px;
+    position: absolute;
+    right: 1px;
+}
+
+.menu-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* header */
+
+
+/* banner */
+.banner {
+    padding-top: 130px;
+    height: 90vh;
+}
+
+.banner__title {
+    font-size: 72px;
+    padding-bottom: 48px;
+    font-weight: 700;
+}
+
+.banner__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner__items {
+    background-color: #FDF5E3;
+    width: 876px;
+    padding: 40px;
+    height: 500px;
+    border-radius: 24px;
+}
+.banner__items-small{
+    background-color: #FDF5E3;
+    width: 428px;
+    border-radius: 24px;
+    height: 500px;
+}
+
+.banner__title span {
+    color: #F6CB73;
+}
+
+.banner__textbox-item img {
+    padding-right: 16px;
+}
+
+.banner__textbox {
+    padding-bottom: 90px;
+    display: flex;
+}
+
+.banner__textbox-item {
+    display: flex;
+    align-items: start;
+    height: 60px;
+}
+
+.banner-link{
+    margin-right: 20px;
+    padding: 6px 16px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 50px;
+}
+
+.banner-link:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+/* banner */
