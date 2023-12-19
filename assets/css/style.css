@@ -700,6 +700,7 @@ button {
 	text-align: center;
 	font-weight: 700;
 	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .sliderbtn {
@@ -716,6 +717,11 @@ button {
 	color: #F6CB73;
 }
 
+.slider-name{
+	text-align: left;
+	font-size: 20px;
+	margin-top: 20px;
+}
 /* reviews */
 
 
